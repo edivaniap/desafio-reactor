@@ -1,0 +1,25 @@
+# Created by https://www.gitignore.io/api/java,gradle,intellij
+### Java ###
+*.class
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+### Gradle ###
+.gradle/
+/build/
+gradle-app.setting
+.gradletasknamecache
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+
+
