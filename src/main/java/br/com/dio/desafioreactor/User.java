@@ -6,4 +6,7 @@ public record User(Long id,
                    String password,
                    Boolean isAdmin) {
 
+    public boolean validate() {
+        return password.length() >= 8;
+    }
 }
